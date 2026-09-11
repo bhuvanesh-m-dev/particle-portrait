@@ -2,6 +2,39 @@
  * particle-portrait.js
  * Three.js scene, particle system, and line-by-line assembly animation.
  */
+
+/*
+ * ================================================================
+ * PARTICLE PORTRAIT — FACE / COORDINATE DATA
+ * ================================================================
+ *
+ * Copyright (C) 2026 - Present Bhuvanesh M
+ *
+ * Original Repository:
+ * https://github.com/bhuvanesh-m-dev/particle-portrait
+ *
+ * SPDX-License-Identifier: GPL-3.0
+ * License: GNU General Public License v3.0
+ *
+ * This file contains code and/or coordinate data belonging to
+ * the Particle Portrait project.
+ *
+ * Original Author:
+ * Bhuvanesh M
+ *
+ * Please preserve the copyright, license, and original repository
+ * information when redistributing this file or substantial portions
+ * of this work.
+ *
+ * Full License:
+ * https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * ================================================================
+ */
+
+// FACE DATA / THREE.JS CODE
+
+
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { facePointsPromise } from './particle-portrait-face.js'; // Updated import path
